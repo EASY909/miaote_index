@@ -11,9 +11,9 @@ $(function(){
   });
   // 头像下方
   $("#first_img").mouseover(function(){
-     $(".block").slideDown(500);
+     $(".block").stop().slideDown(500);
   }).mouseout(function(){
-     $(".block").slideUp(500);
+     $(".block").stop().slideUp(500);
   });
 
   // 中间轮播
@@ -103,9 +103,9 @@ $(function(){
 
       //底端hover
     $(".t_bg_img").mouseover(function(){
-     $(".black_block").slideDown(500);
+     $(".black_block").stop().slideDown(500);
   }).mouseout(function(){
-     $(".black_block").slideUp(500);
+     $(".black_block").stop().slideUp(500);
   });
 
 
